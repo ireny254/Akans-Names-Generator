@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px black (0,0,0,0.1);
+  }
+  
+  h1 {
+    color: grey;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input[type="date"],
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  .gender {
+    display: flex;
+    gap: 10px;
+  }
+  
